@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     marginLeft: 25,
     marginTop: 25,
     height: 40,
-    width: Dimensions.get('screen').width - 50,
+    width: 200,
     borderRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
