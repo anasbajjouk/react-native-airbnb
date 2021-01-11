@@ -5,6 +5,7 @@ import Post from './src/components/Post/index'
 import feed from './assets/data/feed'
 import SearchResultsScreen from './src/screens/SearchResults'
 import DestinationSearchScreen from './src/screens/DestinationSearch'
+import GuestsScreen from './src/screens/Guests'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         {/* <HomeScreen />  */}
-        <DestinationSearchScreen />
+        {/* <DestinationSearchScreen /> */}
+        <GuestsScreen />
         {/* <SearchResultsScreen /> */}
       </SafeAreaView>
     </>
