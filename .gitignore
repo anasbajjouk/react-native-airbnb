@@ -103,6 +103,7 @@ Pods/
 
 ### dotenv ###
 .env
+vars.js
 
 ### macOS ###
 # General

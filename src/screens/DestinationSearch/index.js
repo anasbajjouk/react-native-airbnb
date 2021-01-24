@@ -4,6 +4,7 @@ import { View, Text, TextInput, FlatList, Pressable } from 'react-native'
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete'
 import Entypo from 'react-native-vector-icons/Entypo'
 import searchResults from '../../../assets/data/search'
+import { GOOGLE_API_KEY } from '../../../vars'
 import styles from './styles'
 import SuggestionRow from './SuggestionRow'
 
@@ -22,7 +23,7 @@ const DestinationSearchScreen = () => {
           navigation.navigate('Guests')
         }}
         query={{
-          key: process.env.REACT_APP_GOOGLE_API_KEY,
+          key: GOOGLE_API_KEY,
           language: 'en',
           types: '(cities)',
         }}
