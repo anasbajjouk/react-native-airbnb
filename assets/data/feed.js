@@ -4,6 +4,17 @@ export default [
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg',
     type: 'Private Room',
     title: 'Bright room in the heart of the city',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.' +
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.',
     bed: 2,
     bedroom: 3,
     oldPrice: 25,
@@ -19,6 +30,17 @@ export default [
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg',
     type: 'Entire Flat',
     title: 'NEW lux. apartment in the center of Santa Cruz',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.' +
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.',
     bed: 3,
     bedroom: 2,
     oldPrice: 76,
@@ -34,6 +56,17 @@ export default [
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg',
     type: 'Private Property',
     title: 'Green House Santa Cruz',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.' +
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.',
     bed: 2,
     bedroom: 1,
     oldPrice: 64,
@@ -49,6 +82,17 @@ export default [
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg',
     type: 'Entire Flat',
     title: 'Typical canarian house',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.' +
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit commodi numquam non inventore rerum quo sit impedit perferendis' +
+      'consequuntur odit dolor rem consequatur vero sunt, nulla minima. Expedita, illum?' +
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, voluptatum!' +
+      'Aliquid quae aspernatur, ipsa ut atque veritatis reprehenderit fugiat eum, architecto nesciunt soluta exercitationem unde,' +
+      'dolores eveniet non dolor? Tenetur.',
     bed: 4,
     bedroom: 3,
     oldPrice: 120,

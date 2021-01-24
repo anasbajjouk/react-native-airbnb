@@ -29,11 +29,12 @@ const SearchResultsMap = () => {
     flatListRef.current.scrollToIndex({ index })
 
     const selectedPlace = places[index]
+    console.log('selectedPlace', selectedPlace.coordinate.latitude)
     const region = {
       latitude: selectedPlace.coordinate.latitude,
-      longtitude: selectedPlace.coordinate.longtitude,
-      latitudeDelta: 0.8,
-      longitudeDelta: 0.8,
+      longitude: selectedPlace.coordinate.longitude,
+      latitudeDelta: 1,
+      longitudeDelta: 1,
     }
 
     mapRef.current.animateToRegion(region)
