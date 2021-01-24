@@ -16,7 +16,7 @@ const PostCarouselItem = ({ post }) => {
           }}
         />
 
-        <View style={{ marginHorizontal: 10, flex: 1, paddingVertical: 5 }}>
+        <View style={{ flex: 1, marginHorizontal: 10 }}>
           <Text style={styles.bedrooms}>
             {post.bed} bed {post.bedroom} bedroom
           </Text>
