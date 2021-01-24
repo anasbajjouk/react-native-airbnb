@@ -29,7 +29,6 @@ const SearchResultsMap = () => {
     flatListRef.current.scrollToIndex({ index })
 
     const selectedPlace = places[index]
-    console.log('selectedPlace', selectedPlace.coordinate.latitude)
     const region = {
       latitude: selectedPlace.coordinate.latitude,
       longitude: selectedPlace.coordinate.longitude,

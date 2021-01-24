@@ -19,7 +19,6 @@ const DestinationSearchScreen = () => {
         fetchDetails
         suppressDefaultStyles
         onPress={(data, details = null) => {
-          console.log(data, details)
           navigation.navigate('Guests')
         }}
         query={{
