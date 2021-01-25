@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactnativeairbnb-dev-190519-authRole",
+      "UnauthRoleArn": "arn:aws:iam::147097874476:role/amplify-reactnativeairbnb-dev-190519-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::147097874476:role/amplify-reactnativeairbnb-dev-190519-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-reactnativeairbnb-dev-190519-deployment",
+      "UnauthRoleName": "amplify-reactnativeairbnb-dev-190519-unauthRole",
+      "StackName": "amplify-reactnativeairbnb-dev-190519",
+      "StackId": "arn:aws:cloudformation:eu-central-1:147097874476:stack/amplify-reactnativeairbnb-dev-190519/e4b68920-5f37-11eb-ad20-0abf3103973c",
+      "AmplifyAppId": "d2zt3x9ceaj5og"
+    },
+    "categories": {
+      "auth": {
+        "reactnativeairbnb50037276": {}
+      }
+    }
+  }
+}

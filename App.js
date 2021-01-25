@@ -1,5 +1,6 @@
 import React from 'react'
 import 'react-native-gesture-handler'
+import { withAuthenticator } from 'aws-amplify-react-native'
 import { FlatList, SafeAreaView, StatusBar } from 'react-native'
 import HomeScreen from './src/screens/Home'
 import Post from './src/components/Post/index'
@@ -24,4 +25,4 @@ const App = () => {
   )
 }
 
-export default App
+export default withAuthenticator(App)

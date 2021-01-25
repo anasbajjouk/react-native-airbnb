@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "reactnativeairbnb50037276": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
