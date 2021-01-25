@@ -8,8 +8,7 @@ import { listPostss } from '../../../graphql/queries'
 import CustomMarker from '../../components/CustomMarker'
 import PostCarouselItem from '../../components/PostCarouselItem'
 
-const SearchResultsMap = ({ guests }) => {
-  const [posts, setPosts] = useState([])
+const SearchResultsMap = ({ posts }) => {
   const [selectedPlaceId, setSelectedPlaceId] = useState(null)
   const widthDimension = useWindowDimensions().width
 
@@ -24,23 +23,6 @@ const SearchResultsMap = ({ guests }) => {
     }
   })
 
-  useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        const postsResult = await API.graphql(
-          graphqlOperation(listPostss, {
-            filter: {
-              maxGuests: { ge: guests },
-            },
-          })
-        )
-        setPosts(postsResult?.data?.listPostss?.items)
-      } catch (error) {
-        console.error(error)
-      }
-    }
-    fetchPosts()
-  }, [])
 
   useEffect(() => {
     if (!selectedPlaceId || !flatListRef) return

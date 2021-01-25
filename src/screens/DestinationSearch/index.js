@@ -19,7 +19,7 @@ const DestinationSearchScreen = () => {
         fetchDetails
         suppressDefaultStyles
         onPress={(data, details = null) => {
-          navigation.navigate('Guests')
+          navigation.navigate('Guests', { viewport: details.geometry.viewport })
         }}
         query={{
           key: GOOGLE_API_KEY,
