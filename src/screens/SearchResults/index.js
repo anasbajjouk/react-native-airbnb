@@ -1,12 +1,29 @@
+import { API, graphqlOperation } from 'aws-amplify'
 import React from 'react'
+import { useState } from 'react'
+import { useEffect } from 'react'
 import { View, FlatList } from 'react-native'
-import feed from '../../../assets/data/feed'
+import { getPosts, listPostss } from '../../../graphql/queries'
 import Post from '../../components/Post'
 
 const SearchResultsScreen = () => {
+  const [posts, setPosts] = useState([])
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        const postsResult = await API.graphql(graphqlOperation(listPostss))
+        setPosts(postsResult?.data?.listPostss?.items)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+    fetchPosts()
+  }, [])
+
   return (
     <View>
-      <FlatList data={feed} renderItem={({ item }) => <Post post={item} />} />
+      <FlatList data={posts} renderItem={({ item }) => <Post post={item} />} />
     </View>
   )
 }
