@@ -14,13 +14,8 @@ const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <>
-        <Router />
-        {/* <HomeScreen />  */}
-        {/* <DestinationSearchScreen /> */}
-        {/* <GuestsScreen /> */}
-        {/* <SearchResultsScreen /> */}
-      </>
+
+      <Router />
     </>
   )
 }
